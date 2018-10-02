@@ -197,8 +197,7 @@ app.use(function (err, req, res, next) {
 
 global.winston.info('Starting HTTP/WS server on port ' + 80 + '...')
 
-app.set('port', 80)
-var io = socketio(80)
+var io = socketio(app)
 
 // ----------------------------------------
 // WebSocket
