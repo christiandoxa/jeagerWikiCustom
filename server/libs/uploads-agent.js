@@ -13,7 +13,7 @@ const chokidar = require('chokidar')
 const jimp = require('jimp')
 const imageSize = Promise.promisify(require('image-size'))
 const _ = require('lodash')
-
+const ROOTPATH = '/root/jeagerWikiCustom/'
 /**
  * Uploads - Agent
  */

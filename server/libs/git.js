@@ -11,7 +11,7 @@ const URL = require('url')
 const moment = require('moment')
 
 const securityHelper = require('../helpers/security')
-
+const ROOTPATH = '/root/jeagerWikiCustom/'
 /**
  * Git Model
  */

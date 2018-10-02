@@ -6,6 +6,7 @@ const modb = require('mongoose')
 const fs = require('fs')
 const path = require('path')
 const _ = require('lodash')
+const SERVERPATH = '/root/jeagerWikiCustom/server'
 
 /**
  * MongoDB module

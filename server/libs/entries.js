@@ -8,7 +8,8 @@ const fs = Promise.promisifyAll(require('fs-extra'))
 const _ = require('lodash')
 
 const entryHelper = require('../helpers/entry')
-
+const ROOTPATH = '/root/jeagerWikiCustom/'
+const SERVERPATH = '/root/jeagerWikiCustom/server'
 /**
  * Entries Model
  */

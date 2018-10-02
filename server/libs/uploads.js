@@ -9,7 +9,7 @@ const request = require('request')
 const url = require('url')
 const crypto = require('crypto')
 const _ = require('lodash')
-
+const ROOTPATH = '/root/jeagerWikiCustom/'
 var regFolderName = new RegExp('^[a-z0-9][a-z0-9-]*[a-z0-9]$')
 const maxDownloadFileSize = 3145728 // 3 MB
 

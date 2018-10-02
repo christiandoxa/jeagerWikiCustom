@@ -13,7 +13,7 @@ const tar = require('tar')
 const through2 = require('through2')
 const zlib = require('zlib')
 const _ = require('lodash')
-
+const ROOTPATH = '/root/jeagerWikiCustom/'
 module.exports = {
 
   _remoteFile: 'https://github.com/Requarks/wiki/releases/download/{0}/wiki-js.tar.gz',

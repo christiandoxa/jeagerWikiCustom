@@ -8,6 +8,7 @@ const fs = Promise.promisifyAll(require('fs-extra'))
 const multer = require('multer')
 const os = require('os')
 const _ = require('lodash')
+const ROOTPATH = '/root/jeagerWikiCustom/'
 
 /**
  * Local Data Storage

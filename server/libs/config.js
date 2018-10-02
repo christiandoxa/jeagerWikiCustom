@@ -5,6 +5,8 @@ const yaml = require('js-yaml')
 const _ = require('lodash')
 const path = require('path')
 const cfgHelper = require('../helpers/config')
+const ROOTPATH = '/root/jeagerWikiCustom/'
+const SERVERPATH = '/root/jeagerWikiCustom/server'
 
 /**
  * Load Application Configuration

@@ -7,8 +7,8 @@
 // ===========================================
 
 const path = require('path')
-const ROOTPATH = process.cwd()
-const SERVERPATH = path.join(ROOTPATH, 'server')
+const ROOTPATH = '/root/jeagerWikiCustom/'
+const SERVERPATH = '/root/jeagerWikiCustom/server'
 
 global.ROOTPATH = ROOTPATH
 global.SERVERPATH = SERVERPATH
